@@ -7,4 +7,4 @@ def compare(fs, args):
 		plt.grid(True)
 
 fib1 = old_fib1
-compare([fib1, fib3])
+compare([fib1, fib3], list(range(20)))
